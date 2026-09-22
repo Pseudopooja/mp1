@@ -1,13 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MP1</title>
-    </head>
-    <body>
-        <h1>Hello World! Welcome to MP1!</h1>
-        <img src="assets/image.jpg">
-    </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pooja Sahu | Portfolio</title>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a class="logo" href="#home">Pooja Sahu</a>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- Hero -->
+  <header id="home" class="hero">
+    <div class="hero-content">
+      <p class="eyebrow">DATA • AI • PRODUCT</p>
+
+      <h1>
+        I turn ideas into
+        <span>intelligent experiences.</span>
+      </h1>
+
+      <p class="hero-text">
+        Exploring the intersection of data science, artificial intelligence,
+        and thoughtful product development.
+      </p>
+
+      <a class="hero-button" href="#projects">Explore My Work</a>
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- About -->
+    <section id="about" class="section about-section">
+      <div class="section-container about-grid">
+
+        <div>
+          <p class="section-number">01 / ABOUT</p>
+          <h2>Curious by nature.<br>Builder by choice.</h2>
+        </div>
+
+        <div class="about-text">
+          <p>
+            I am a graduate student interested in designing useful
+            experiences around data, artificial intelligence, and technology.
+          </p>
+
+          <p>
+            I enjoy understanding complex problems, breaking them down,
+            and building solutions that feel simple to the people using them.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Projects / Carousel -->
+    <section id="projects" class="section projects-section">
+      <div class="section-container">
+
+        <p class="section-number">02 / SELECTED WORK</p>
+        <h2 class="center-title">Projects</h2>
+
+        <div class="carousel">
+
+          <button
+            class="carousel-arrow previous"
+            aria-label="Previous project">
+            &#10094;
+          </button>
+
+          <div class="carousel-content">
+
+            <article class="project-slide active">
+              <p class="project-tag">AI + WEB</p>
+              <h3>ClaimSense</h3>
+
+              <p>
+                A web experience designed to make complex insurance
+                information easier to understand.
+              </p>
+
+              <button
+                class="project-button"
+                data-title="ClaimSense"
+                data-description="ClaimSense explores how structured insurance data can be presented in a clearer and more useful way. The project combines web development, data modeling, and user-centered product thinking.">
+                View Case Study
+              </button>
+            </article>
+
+
+            <article class="project-slide">
+              <p class="project-tag">GENERATIVE AI</p>
+              <h3>Ad Intelligence Engine</h3>
+
+              <p>
+                An AI-assisted system for analyzing information and
+                surfacing useful insights.
+              </p>
+
+              <button
+                class="project-button"
+                data-title="Ad Intelligence Engine"
+                data-description="An AI-focused project that explores information extraction, analysis, and conversational interaction to make complex information easier to explore.">
+                View Case Study
+              </button>
+            </article>
+
+
+            <article class="project-slide">
+              <p class="project-tag">MULTI-AGENT AI</p>
+              <h3>Sust-AI-nable</h3>
+
+              <p>
+                A multi-agent concept exploring smarter and more
+                resource-aware computing decisions.
+              </p>
+
+              <button
+                class="project-button"
+                data-title="Sust-AI-nable"
+                data-description="A multi-agent project exploring how AI workloads can be scheduled while considering energy usage, system constraints, and responsible computing.">
+                View Case Study
+              </button>
+            </article>
+
+          </div>
+
+          <button
+            class="carousel-arrow next"
+            aria-label="Next project">
+            &#10095;
+          </button>
+
+        </div>
+
+
+        <div class="carousel-dots">
+          <button class="dot active" aria-label="Project 1"></button>
+          <button class="dot" aria-label="Project 2"></button>
+          <button class="dot" aria-label="Project 3"></button>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Multi-column section -->
+    <section id="skills" class="section skills-section">
+      <div class="section-container">
+
+        <p class="section-number light-label">03 / WHAT I WORK WITH</p>
+
+        <h2 class="center-title light-title">
+          Different tools. One goal:
+          <span>solve the right problem.</span>
+        </h2>
+
+
+        <div class="skill-grid">
+
+          <article class="skill-card">
+            <p class="card-number">01</p>
+            <h3>Artificial Intelligence</h3>
+            <p>
+              Machine learning, LLMs, intelligent systems,
+              retrieval, and AI-assisted experiences.
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <p class="card-number">02</p>
+            <h3>Data</h3>
+            <p>
+              Analytics, modeling, experimentation,
+              visualization, and discovering meaningful patterns.
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <p class="card-number">03</p>
+            <h3>Product</h3>
+            <p>
+              Understanding users, defining problems,
+              and translating technology into useful experiences.
+            </p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Fixed Background Image -->
+    <section class="statement-section">
+
+      <div class="statement-overlay">
+
+        <div class="statement-content">
+          <p>MY APPROACH</p>
+
+          <h2>
+            Complex technology.<br>
+            Simple experiences.
+          </h2>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- HTML5 Video -->
+    <section id="video" class="section video-section">
+
+      <div class="section-container video-grid">
+
+        <div>
+          <p class="section-number">04 / IN MOTION</p>
+
+          <h2>
+  Exploring AI
+  beyond the code.
+          </h2>
+
+          <p>
+  A short generative-AI experiment created while exploring
+  emerging AI experiences and digital storytelling.
+          </p>
+        </div>
+
+
+       <video
+  class="portfolio-video"
+  controls
+  muted
+  poster="assets/video-cover.jpg">
+
+  <source src="assets/demo.mp4" type="video/mp4">
+
+  Your browser does not support the HTML5 video element.
+      </video>
+
+
+ 
+      </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+
+      <div class="section-container contact-content">
+
+        <p class="section-number">05 / CONTACT</p>
+
+        <h2>
+          Let's build something
+          <span>worth talking about.</span>
+        </h2>
+
+        <p>
+          Interested in AI, data, or thoughtful technology?
+          I would love to connect.
+        </p>
+
+
+        <div class="social-links">
+
+          <a
+            href="https://github.com/Pseudopooja"
+            target="_blank"
+            rel="noopener noreferrer">
+
+            <span class="social-icon github-icon"></span>
+            GitHub
+          </a>
+
+
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            rel="noopener noreferrer">
+
+            <span class="social-icon linkedin-icon"></span>
+            LinkedIn
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Pooja Sahu</p>
+    <p>HTML • SCSS • JavaScript</p>
+  </footer>
+
+
+  <!-- Modal -->
+  <div class="modal" aria-hidden="true">
+
+    <div class="modal-card">
+
+      <button
+        class="modal-close"
+        aria-label="Close modal">
+        ×
+      </button>
+
+      <p class="section-number">PROJECT DETAILS</p>
+
+      <h2 class="modal-title"></h2>
+
+      <p class="modal-description"></p>
+
+    </div>
+
+  </div>
+
+</body>
+
 </html>
